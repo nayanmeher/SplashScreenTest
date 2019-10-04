@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/add_activity_linear_layout"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddTasks">
+
+    <EditText
+        android:id="@+id/et_title"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:backgroundTint="#fff"
+        android:hint="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_note"
+        android:textColor="#000"
+        android:backgroundTint="#fff"
+        android:hint="@string/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
